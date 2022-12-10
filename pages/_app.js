@@ -15,15 +15,13 @@ const { chains, provider } = configureChains(
   [
     chain.mainnet,
     chain.polygon,
-    chain.goerli,
-    chain.rinkeby,
     chain.polygonMumbai,
   ],
   [apiProvider.fallback()]
 );
 
 const { connectors } = getDefaultWallets({
-  appName: "My RainbowKit App",
+  appName: "0xChain",
   chains,
 });
 

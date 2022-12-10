@@ -1,6 +1,21 @@
 import { ConnectButton } from "@rainbow-me/rainbowkit";
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
+// import { publicProvider } from 'wagmi/providers/public';
+import {
+  FixedRateExchange
+} from "@oceanprotocol/lib";
+
+// let freAddress = "0x000"
+// let freId = "0x000"
+
+// const FRE_NFT_NAME = 'Datatoken 2'
+// const FRE_NFT_SYMBOL = 'DT2'
+
+// const fixedRate = new FixedRateExchange(freAddress, web3)
+// const oceanAmount = await (
+//   await fixedRate.calcBaseInGivenDatatokensOut(freId, '1')
+// ).baseTokenAmount
 
 export default function Home() {
   return (
@@ -19,7 +34,6 @@ export default function Home() {
           Welcome to this demo of{" "}
           <a href="https://www.rainbowkit.com/">OceanKit</a>
         </h1>
-
         <ConnectButton />
       </main>
     </div>
