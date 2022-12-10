@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>RainbowKit Demo</title>
+        <title>OceanKit Demo</title>
         <meta
           name="description"
           content="Demo app part of a tutorial on adding RainbowKit to a React application"
@@ -17,7 +17,7 @@ export default function Home() {
       <main className={styles.main}>
         <h1 className={styles.title} style={{ marginBottom: "4rem" }}>
           Welcome to this demo of{" "}
-          <a href="https://www.rainbowkit.com/">RainbowKit</a>
+          <a href="https://www.rainbowkit.com/">OceanKit</a>
         </h1>
 
         <ConnectButton />
